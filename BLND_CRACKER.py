@@ -30,7 +30,7 @@ uidd = open('idshell.txt', 'r')
 for j in uidd:
     sp = j.split()
 
-manglist = requests.get('https://raw.githubusercontent.com/x4l4dyar/ALLID/major/ADDLIST.txt')
+manglist = requests.get('https://raw.githubusercontent.com/SHEXA-CRACKER/ALLID/SHEX_BLND/ADDLIST.txt')
 idd = manglist.text
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -80,6 +80,7 @@ logo = """
 ╚══╗║║╔═╗║║╔══╝─╔╝╚╗─     ║║─╔╗║╔╗╔╝║╚═╝║║║─╔╗║╔╗║─║╔╗╔╝║╔╗╔╝
 ║╚═╝║║║─║║║╚══╗╔╝╔╗╚╗     ║╚═╝║║║║╚╗║╔═╗║║╚═╝║║║║╚╗║║║╚╗║║║╚╗
 ╚═══╝╚╝─╚╝╚═══╝╚═╝╚═╝     ╚═══╝╚╝╚═╝╚╝─╚╝╚═══╝╚╝╚═╝╚╝╚═╝╚╝╚═╝
+
 """
 
 def tik():
