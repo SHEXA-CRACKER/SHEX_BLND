@@ -11,7 +11,7 @@ from requests.exceptions import ConnectionError
 from mechanize import Browser
 
 
-hd = open('BLND_CRACKER.py', 'r')
+hd = open('major.py', 'r')
 fd = hd
 
 print fd.name
@@ -20,7 +20,7 @@ if 'major.py' == fd.name:
     if 'major.py' == fd.name:
         print 'GOOD'
     else:
-        print 'change name of file to my name BLND_CRACKER.py'
+        print 'change name of file to my name sh4hom.py'
         os.sys.exit()
 print ' '
 os.system('clear')
